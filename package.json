@@ -1,0 +1,17 @@
+{
+  "type":"module",
+  "name": "y",
+  "version": "1.0.0",
+  "description": "A twitter(X) project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Twitter",
+    "X",
+    "Clone"
+  ],
+  "author": "shikhar verma",
+  "license": "ISC"
+}

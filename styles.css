@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width:80%;
+    display: block;
+    margin:0 auto;
+}
+
+header{
+    text-align: center;
+    width:50%;
+    margin:0 auto;
+}
+
+#header--logo{
+    width:11%;
+    margin:10px 0 0;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+#header--subTitle{
+    margin-top:0;
+}
+
+.tweet-input-area{
+    width:80%;
+    margin:15px auto;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    
+}
+.user-profile-picture{
+    width:5%;
+    height:50%;
+    border-radius:50px;
+    cursor:pointer;
+}
+
+textarea{
+    resize:none;
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+    padding:10px;
+    height:130px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(246, 242, 242);
+}
+
+.post-button{
+    width:13%;
+    padding:10px 0;
+    border:none;
+    border-radius:50px;
+    cursor: pointer;
+    font-size:20px;
+    font-weight:800;
+    background-color: #1DA1F2;
+    color:white;
+    display:block;
+    margin:0 auto;
+}
+
+.post-button:hover,.logo:hover,.post-img:hover,#header--logo:hover{
+    opacity: 0.7;
+}
+
+hr{
+    width:50%;
+    margin:20px auto;
+}
+
+.post-hr{
+    width:100%;
+    margin:20px 0;
+}
+
+.feed{
+    width:50%;
+    margin:0 auto;
+}
+
+.post-container,.reply-container{
+    display:flex;
+    gap:10px;
+}
+
+.post-content{
+    width:80%;
+}
+
+.post-img{
+    width:60px;
+    height:50%;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.post-user-name{
+    font-size:15px;
+    margin:5px 0;
+    color: rgba(94, 90, 90, 0.76);
+    padding:0 10px;
+    margin:0;
+}
+
+.post-paragraph{
+    font-weight:410;
+    line-height:1.5;
+    color:rgb(25, 25, 26);
+    margin:20px 0;
+    padding:0 10px;
+}
+
+.post-numbers{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin:0 auto;
+    padding:0 10px;
+    font-size: 13px;
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #999;
+}
+
+.liked{
+    color: red;
+}
+
+.reposted {
+  color: limegreen;
+}
+
+.reply-container{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+    transform: scale(0.8);
+}
+
+.hidden{
+    display: none;
+}
