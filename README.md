@@ -1,7 +1,7 @@
 
 # Y
 
-Y is an X(twitter) like app.
+Y is an X(twitter) like app where a user can do a post , like , repost and view other posts and their replies.
 
 
 ## Demo
